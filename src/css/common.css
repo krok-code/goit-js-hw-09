@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400,500&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -15,4 +17,36 @@ body {
 img {
   display: block;
   max-width: 100%;
+}
+
+#datetime-picker {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.button {
+  font-size: 20px;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.value {
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.label {
+  font-weight: 500;
 }
